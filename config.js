@@ -3,32 +3,32 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.password = 'janith'
-global.owner = process.env.OWNER_NUMBER || ("94767438882") //Your Number
+global.password = 'CHAMIKA'
+global.owner = process.env.OWNER_NUMBER || ("94726522116") //Your Number
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://nilunilu:janith1234@cluster0.zluxwdv.mongodb.net/?retryWrites=true&w=majority" //Ur Mongodb URI
 global.port= process.env.PORT || 5000
 global.email = 'Queennilu@gmail.com' // ur Email
 global.github = 'https://github.com/Jnaithsadanuwan/QueenNilu' //Github
 global.location = 'Kandy LK'
 global.gurl = 'https://instagram.com/janithsadanuwan' // add your username
-global.sudo = process.env.SUDO || '94767438882'
-global.devs = '94767438882';
+global.sudo = process.env.SUDO || '94726522116'
+global.devs = '94726522116';
 global.website = 'https://janithsadanuwan.tech/QueenNilu' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://graph.org/file/1b099040322e0649a9192.jpg'
 module.exports = {
   NILU: process.env.NILU_PASSWORD === undefined ? 'janith' : process.env.NILU_PASSWORD,
-  LANG: process.env.THEME|| 'EN', //Change Language 
-  botname: process.env.BOT_NAME || 'Queen Nilu', //Bot Name
+  LANG: process.env.THEME|| 'SI', //Change Language 
+  botname: process.env.BOT_NAME || 'Queen MARSHI', //Bot Name
   alivelogo: process.env.ALIVE_LOGO || 'https://te.legra.ph/file/a9293226a7c660ecbfffb.jpg', //Alive Logo
-  ownername:process.env.OWNER_NAME || 'Jnaith sadanuwan',
+  ownername:process.env.OWNER_NAME || 'chamika',
   sessionName: process.env.SESSION_ID || '',
-  author: process.env.PACK_INFO || (";")[0] || 'Queen Nilu 💃', 
+  author: process.env.PACK_INFO || (";")[0] || 'Queen Marshi 💃', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
-  packname: process.env.PACK_INFO || (";")[1] || 'Queen Nilu 💃', 
+  packname: process.env.PACK_INFO || (";")[1] || 'Queen Marshi 💃', 
   autoreaction: process.env.AUTO_REACTION || 'off',
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokey',
-  alwaysonline: process.env.ALWAYS_ONLINE || 'false',
-  antifake : process.env.FAKE_COUNTRY_CODE || '',
+  alwaysonline: process.env.ALWAYS_ONLINE || 'true',
+  antifake : process.env.FAKE_COUNTRY_CODE || '94',
   readmessage: process.env.READ_MESSAGE || true,
   HANDLERS: process.env.PREFIX || ['.',' '],
   warncount : process.env.WARN_COUNT || 3,
